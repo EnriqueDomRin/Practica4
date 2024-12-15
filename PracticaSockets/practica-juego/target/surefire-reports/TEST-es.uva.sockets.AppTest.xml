@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="es.uva.sockets.AppTest" time="0.711" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\kique\Documents\Ingeniería_Informática\CURSO_4\Sistemas_Distribuidos\distribuidos3\sockets\practica-juego\target\test-classes;C:\Users\kique\Documents\Ingeniería_Informática\CURSO_4\Sistemas_Distribuidos\distribuidos3\sockets\practica-juego\target\classes;C:\Users\kique\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\kique\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\kique\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\kique\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kique\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\kique\.m2\repository\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;C:\Users\kique\.m2\repository\org\slf4j\slf4j-simple\1.7.22\slf4j-simple-1.7.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\kique\AppData\Local\Temp\surefire2893251831721745221\surefirebooter-20241215183401012_3.jar C:\Users\kique\AppData\Local\Temp\surefire2893251831721745221 2024-12-15T18-34-00_755-jvmRun1 surefire-20241215183401012_1tmp surefire_0-20241215183401012_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kique\Documents\Ingeniería_Informática\CURSO_4\Sistemas_Distribuidos\distribuidos3\sockets\practica-juego\target\test-classes;C:\Users\kique\Documents\Ingeniería_Informática\CURSO_4\Sistemas_Distribuidos\distribuidos3\sockets\practica-juego\target\classes;C:\Users\kique\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\kique\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\kique\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\kique\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kique\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\kique\.m2\repository\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;C:\Users\kique\.m2\repository\org\slf4j\slf4j-simple\1.7.22\slf4j-simple-1.7.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kique"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-09-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kique\Documents\Ingeniería_Informática\CURSO_4\Sistemas_Distribuidos\distribuidos3\sockets\practica-juego"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kique\AppData\Local\Temp\surefire2893251831721745221\surefirebooter-20241215183401012_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21+35-LTS-2513"/>
+    <property name="user.name" value="kique"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="junit.jupiter.execution.parallel.enabled" value="false"/>
+    <property name="localRepository" value="C:\Users\kique\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kique\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.2"/>
+    <property name="java.version" value="21"/>
+    <property name="user.dir" value="C:\Users\kique\Documents\Ingeniería_Informática\CURSO_4\Sistemas_Distribuidos\distribuidos3\sockets\practica-juego"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Users\kique\.pyenv\pyenv-win\bin;C:\Users\kique\.pyenv\pyenv-win\shims;C:\Users\kique\AppData\Local\Microsoft\WindowsApps;C:\Users\kique\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Program Files (x86)\Nmap;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21+35-LTS-2513"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="shouldDig" classname="es.uva.sockets.AppTest" time="0.17">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46243
+Socket aceptado: Socket[addr=/127.0.0.1,port=46244,localport=46243]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@c730b35
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Cliente conectado en localhost:46243
+Socket aceptado: Socket[addr=/127.0.0.1,port=46245,localport=46243]
+Jugador creado: Id=2, Coordenadas=es.uva.sockets.Coordenadas@385c9627
+ManagerCliente creado para el jugador: 2
+Mensaje enviado al jugador: 2
+Broadcast enviado: PLAYER JOIN 2 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 1 1
+&amp#27;[H&amp#27;[2J----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Introduce un comando: Comando enviado al servidor: DIG
+Broadcast enviado: DIG 1 false
+Mensaje recibido del servidor: DIG 1 false
+Coordenada añadida: 1,1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: DIG 1 false
+Coordenada añadida: 1,1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+]]></system-out>
+  </testcase>
+  <testcase name="shouldEnd" classname="es.uva.sockets.AppTest" time="0.046">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46246
+Socket aceptado: Socket[addr=/127.0.0.1,port=46247,localport=46246]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@5e5d171f
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Cliente conectado en localhost:46246
+Socket aceptado: Socket[addr=/127.0.0.1,port=46248,localport=46246]
+Jugador creado: Id=2, Coordenadas=es.uva.sockets.Coordenadas@24313fcc
+ManagerCliente creado para el jugador: 2
+Mensaje enviado al jugador: 2
+Broadcast enviado: PLAYER JOIN 2 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 1 1
+&amp#27;[H&amp#27;[2J----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Introduce un comando: Comando enviado al servidor: DIG
+Broadcast enviado: DIG 1 true
+Mensaje recibido del servidor: DIG 1 true
+Coordenada añadida: 1,1
+El tesoro ha sido encontrado por el Jugador: 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: DIG 1 true
+Coordenada añadida: 1,1
+El tesoro ha sido encontrado por el Jugador: 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+]]></system-out>
+  </testcase>
+  <testcase name="shouldJoin" classname="es.uva.sockets.AppTest" time="0.015">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46249
+Socket aceptado: Socket[addr=/127.0.0.1,port=46250,localport=46249]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@7d20d0b
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMove(String, int, int)[1]" classname="es.uva.sockets.AppTest" time="0.095">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46251
+Socket aceptado: Socket[addr=/127.0.0.1,port=46252,localport=46251]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@6283d8b8
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Cliente conectado en localhost:46251
+Socket aceptado: Socket[addr=/127.0.0.1,port=46253,localport=46251]
+Jugador creado: Id=2, Coordenadas=es.uva.sockets.Coordenadas@3b6ddd1d
+ManagerCliente creado para el jugador: 2
+Mensaje enviado al jugador: 2
+Broadcast enviado: PLAYER JOIN 2 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 1 1
+&amp#27;[H&amp#27;[2J----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Introduce un comando: Comando enviado al servidor: MOVE UP
+Broadcast enviado: MOVE UP 1
+Mensaje recibido del servidor: MOVE UP 1
+&amp#27;[H&amp#27;[2J----------
+| B| A|  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: MOVE UP 1
+&amp#27;[H&amp#27;[2J----------
+| B| A|  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMove(String, int, int)[2]" classname="es.uva.sockets.AppTest" time="0.02">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46254
+Socket aceptado: Socket[addr=/127.0.0.1,port=46255,localport=46254]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@25fb8912
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Cliente conectado en localhost:46254
+Socket aceptado: Socket[addr=/127.0.0.1,port=46256,localport=46254]
+Jugador creado: Id=2, Coordenadas=es.uva.sockets.Coordenadas@7c24b813
+ManagerCliente creado para el jugador: 2
+Mensaje enviado al jugador: 2
+Broadcast enviado: PLAYER JOIN 2 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 1 1
+&amp#27;[H&amp#27;[2J----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Introduce un comando: Comando enviado al servidor: MOVE DOWN
+Broadcast enviado: MOVE DOWN 1
+Mensaje recibido del servidor: MOVE DOWN 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+Mensaje recibido del servidor: MOVE DOWN 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMove(String, int, int)[3]" classname="es.uva.sockets.AppTest" time="0.014">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46257
+Socket aceptado: Socket[addr=/127.0.0.1,port=46258,localport=46257]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@2c35e847
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Cliente conectado en localhost:46257
+Socket aceptado: Socket[addr=/127.0.0.1,port=46259,localport=46257]
+Jugador creado: Id=2, Coordenadas=es.uva.sockets.Coordenadas@7bd4937b
+ManagerCliente creado para el jugador: 2
+Mensaje enviado al jugador: 2
+Broadcast enviado: PLAYER JOIN 2 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 1 1
+&amp#27;[H&amp#27;[2J----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Introduce un comando: Comando enviado al servidor: MOVE LEFT
+Broadcast enviado: MOVE LEFT 1
+Mensaje recibido del servidor: MOVE LEFT 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: MOVE LEFT 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMove(String, int, int)[4]" classname="es.uva.sockets.AppTest" time="0.017">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46260
+Socket aceptado: Socket[addr=/127.0.0.1,port=46261,localport=46260]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@21e360a
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Cliente conectado en localhost:46260
+Socket aceptado: Socket[addr=/127.0.0.1,port=46262,localport=46260]
+Jugador creado: Id=2, Coordenadas=es.uva.sockets.Coordenadas@5ba3f27a
+ManagerCliente creado para el jugador: 2
+Mensaje enviado al jugador: 2
+Broadcast enviado: PLAYER JOIN 2 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 1 1
+&amp#27;[H&amp#27;[2J----------
+|  |  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  | A|  |
+----------
+|  |  |  |
+----------
+Introduce un comando: Comando enviado al servidor: MOVE RIGHT
+Broadcast enviado: MOVE RIGHT 1
+Mensaje recibido del servidor: MOVE RIGHT 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  |  | A|
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: MOVE RIGHT 1
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  |  | A|
+----------
+|  |  |  |
+----------
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBroadcastJoin" classname="es.uva.sockets.AppTest" time="0.013">
+    <system-out><![CDATA[Servidor inicializado en: 0
+Cliente conectado en localhost:46263
+Socket aceptado: Socket[addr=/127.0.0.1,port=46264,localport=46263]
+Jugador creado: Id=1, Coordenadas=es.uva.sockets.Coordenadas@741a8937
+ManagerCliente creado para el jugador: 1
+Mensaje enviado al jugador: 1
+Broadcast enviado: PLAYER JOIN 1 0 0
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Cliente conectado en localhost:46263
+Socket aceptado: Socket[addr=/127.0.0.1,port=46265,localport=46263]
+Jugador creado: Id=2, Coordenadas=es.uva.sockets.Coordenadas@306e95ec
+ManagerCliente creado para el jugador: 2
+Mensaje enviado al jugador: 2
+Broadcast enviado: PLAYER JOIN 2 0 0
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 1 0 0
+&amp#27;[H&amp#27;[2J----------
+| A|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+Mensaje recibido del servidor: PLAYER JOIN 2 0 0
+&amp#27;[H&amp#27;[2J----------
+| B|  |  |
+----------
+|  |  |  |
+----------
+|  |  |  |
+----------
+]]></system-out>
+  </testcase>
+</testsuite>
